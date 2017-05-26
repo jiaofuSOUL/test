@@ -24,17 +24,4 @@ class TypeController extends Controller
             
         }
     }
-    public function typeAdd(Request  $request){
-        if($request->isMethod('post')){
-            $arr = $request->input();
-            // print_r($arr);die;
-            $type = new Type();
-            $result = $type->typeAdd($arr);
-            if($result){
-                return redirect('/admin/success/TypeController/type');
-            }else{
-                return redirect('/admin/fail/TypeController/type');
-            }
-        }
-    }
 }
