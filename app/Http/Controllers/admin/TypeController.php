@@ -38,4 +38,6 @@ class TypeController extends Controller
         }
     }
     // 当前在主分支上！
+    // 当前在TEST分支中！！！
+    // 当前主分支已经和test分支合并了
 }
