@@ -38,4 +38,8 @@ class TypeController extends Controller
         }
     }
     // 当前在DEMO分支上
+    // 当前在主分支上！
+    // 当前在TEST分支中！！！
+    // 当前主分支已经和test分支合并了
+    // 当前的demo分支已经和主分支合并了，现在是demo分支
 }
